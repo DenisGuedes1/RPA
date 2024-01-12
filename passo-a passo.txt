@@ -1,0 +1,27 @@
+#Passo a passo do meu projeto 
+
+#Passo 1 - Entrar no sistema da empresa
+        ##https://dlp.hashtagtreinamentos.com/python/intensivao/login
+#pyautogui - RPA biblioteca que vou utilizar
+#para instalar pip install pyautogui.
+
+
+# apertar a tecla do windows
+# digitar o nome do programa(chrome)
+# aperta enter
+# digitar o link no chrome
+# apertar enter
+
+#import pyautogui - para importar a lib.
+#passo 2 - Fazer Login.
+#Passo 3 - Importar a base de dados.
+        ##precisa instalar a lib pip install pandas numpy openpyxl para importar a base
+#passo 4 - Cadastrar um produto.
+#Passo 5 - Repetir isso até acabar a base de dados. 
+
+#### Comandos pyautogui
+#clicar -> pyautogui.click.
+# scroll -> pyautogui.scroll(numeros positivos pra cima, e negativo pra baixo)
+#escrever -> pyautogui.write
+#apertar tecla -> pyautogui.press = pyautogui.press("nome da tecla")
+#aperta tecla de atalho -> pyautogui.hotkey("primeira tecla", "segunda tecla")
